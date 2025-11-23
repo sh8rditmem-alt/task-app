@@ -32,3 +32,4 @@ if len(st.session_state.tasks) > 0:
             st.button("❌ حذف", key=f"delete_{i}", on_click=delete_task, args=(i,))
 else:
     st.success("🎉 لا توجد مهام، استمتع بيومك!")
+
